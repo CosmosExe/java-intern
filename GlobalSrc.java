@@ -1,7 +1,4 @@
 class GlobalSrc{
-	public static void main(String[] srcs){
-		createGlobalSrcAccount("India", "Rinith", "Ramesh", "noobsnightmre@gmail.com", "Finesse2929", "Finesse2929", 6366327453L);
-	}
 	static void createGlobalSrcAccount(String country, String firstName, String lastName, String email, String password, String repeatPassword, long phoneNumber){
 		System.out.println("User's country of origin : "+country);
 		System.out.println("First name of the user : "+firstName);

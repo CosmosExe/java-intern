@@ -1,7 +1,4 @@
 class Oracle{
-	public static void main(String[] java){
-		createOracleAccount("noobsnightmre@gmail.com", "Finesse2929", "Finesse2929", "India", "Rinith", "Ramesh", 6366327453L, "XWorkz", 577004);
-	}
 	static void createOracleAccount(String email, String password, String repeatPassword, String country, String firstName, String lastName, long phoneNumber, String company, int zipcode){
 		System.out.println("User's email : "+email);
 		System.out.println("Password : "+password);

@@ -1,7 +1,4 @@
 class RedHat{
-	public static void main(String[] redHat){
-		createRedHatAccount("Cosmos", "Finesse2929", "Rinith", "Ramesh", "noobsnightmre@gmail.com", "Data Analyst", "India");
-	}
 	static void createRedHatAccount(String username, String password, String firstName, String lastName, String email, String jobRole, String country){
 		System.out.println("Username : "+username);
 		System.out.println("Password : "+password);
